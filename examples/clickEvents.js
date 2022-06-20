@@ -44,8 +44,11 @@ function main() {
   //   });
   // });
 
-  // 方案二：模拟命中区域
-  // 思路：获取点击区域下的像素并找到具有相同颜色的形状
+  /**
+   * 方案二：模拟命中区域
+   * 思路：在内存中创建一个画布，它和视图中的画布具有几乎相同的绘制形状，但是每个形状都有唯一的颜色。
+   * 获取点击区域下的像素并找到具有相同颜色的形状
+   */
 
   const hitCanvas = document.createElement('canvas');
   const hitCtx = hitCanvas.getContext('2d');

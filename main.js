@@ -1,2 +1,1 @@
-// import './examples/clickEvents';
-import './examples/drag';
+import './examples/line-join';

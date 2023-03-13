@@ -1,1 +1,1 @@
-import './examples/line-join';
+import './examples/motion-trails';

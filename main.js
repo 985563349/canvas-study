@@ -1,1 +1,1 @@
-import './examples/dpi';
+import './examples/bar-chart';

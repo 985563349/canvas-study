@@ -1,1 +1,1 @@
-import './examples/motion-trails';
+import './examples/dpi';
